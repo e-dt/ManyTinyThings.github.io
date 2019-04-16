@@ -1569,7 +1569,7 @@ function createToolbar()
 
     toolbar.selectElement.addEventListener("input", function(event)
     {
-        var newToolName = event.srcElement.value;
+        var newToolName = event.target.value;
         selectTool(toolbar, newToolName);
     });
 
